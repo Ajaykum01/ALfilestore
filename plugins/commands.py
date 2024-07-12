@@ -419,8 +419,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 file_id=file_id,
             )
             fileName = {quote_plus(get_name(log_msg))}
-            stream = f"{Var.URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
-            download = f"{Var.URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
+            stream = f"{https://t.me/kpslinkteam/49)}"
+            download = f"{https://t.me/kpslinkteam/49)}"
 
             xo = await query.message.reply_text(f'🔐')
             await asyncio.sleep(1)
